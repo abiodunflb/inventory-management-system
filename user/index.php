@@ -45,7 +45,7 @@
             $username = $conn->real_escape_string($_POST['username']);
             $password = $conn->real_escape_string($_POST['password']);
             $count = 0;
-            $result = $conn->query("SELECT * FROM users WHERE username = '$username' AND password = '$password' AND status = 'active'") or die($conn->error());
+            $result = $conn->query("SELECT * FROM users WHERE username = '$username' AND password = '$password' AND status = 'active' AND role = 'user'") or die($conn->error());
 
             $count = mysqli_num_rows($result);
             if($count > 0){
