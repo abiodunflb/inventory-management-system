@@ -55,6 +55,10 @@
             <a href="add_user.php"><i class="icon icon-user"></i><span>Add User</span></a>
         </li>
 
+        <li>
+            <a href="add_unit.php"><i class="icon icon-user"></i><span>Add Unit</span></a>
+        </li>
+
         <li class="submenu"><a href="#"><i class="icon icon-th-list"></i> <span>Forms</span> <span
                 class="label label-important">3</span></a>
             <ul>
