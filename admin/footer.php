@@ -4,6 +4,15 @@
     <div id="footer" class="span12" style="color:white"> Designed And Developed By: Afolabi Abiodun</div>
 </div>
 
+                <script>
+                    let alert = document.getElementById("alert");
+                    let close = document.getElementById("close");
+                    
+                    close.addEventListener('click', () => {
+                        alert.style.display = "none";
+                    });
+                </script>
+
 <!--end-Footer-part-->
 
 <script src="js/excanvas.min.js"></script>

@@ -57,14 +57,7 @@
                     <strong>Error!</strong> Invalid Password/Username
                 </div>
 
-                <script>
-                    let alert = document.getElementById("alert");
-                    let close = document.getElementById("close");
-                    
-                    close.addEventListener('click', () => {
-                        alert.style.display = "none";
-                    });
-                </script>
+                
 
                 <?php
 
